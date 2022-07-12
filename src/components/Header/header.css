@@ -1,0 +1,33 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: darkslateblue;
+}
+
+.logo{
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: beige;
+  font-weight: bold;
+}
+.logo:hover{
+  color:cornflowerblue;
+}
+
+.favoritos{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: beige;
+  padding: 5px 14px;
+  color: black;
+  border-radius: 6px;
+}
+
+.favoritos:hover{
+  background-color: dodgerblue;
+  color: blueviolet;
+}

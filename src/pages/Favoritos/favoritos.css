@@ -1,0 +1,26 @@
+.remover{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background-color: silver;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.remover:hover{
+  background-color: snow;  
+  font-size: 14px;
+  box-shadow: 5px 4px 6px dimgrey;
+  padding-bottom: 5px;
+}
+
+.remover label{
+  cursor: pointer;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+}
